@@ -8,17 +8,11 @@ import {
   html,
   css,
   reactjs,
-  redux,
   tailwind,
   nodejs,
   mongodb,
   git,
   figma,
-  docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
   carrent,
   jobit,
   tripguide,
@@ -28,6 +22,8 @@ import {
   MailOnline,
   Zopa,
   Birkbeck,
+  GraphQL,
+  amplitude,
 } from "../assets";
 
 export const navLinks = [
@@ -86,8 +82,8 @@ const technologies = [
     icon: reactjs,
   },
   {
-    name: "Redux Toolkit",
-    icon: redux,
+    name: "GraphQL",
+    icon: GraphQL,
   },
   {
     name: "Tailwind CSS",
@@ -114,8 +110,8 @@ const technologies = [
     icon: figma,
   },
   {
-    name: "docker",
-    icon: docker,
+    name: "amplitude",
+    icon: amplitude,
   },
 ];
 
@@ -172,7 +168,7 @@ const experiences = [
     title: "Software Developer",
     company_name: "Zopa",
     icon: Zopa,
-    iconBg: "#E6DEDD",
+    iconBg: "#fff",
     date: "December 2020 - Present",
     points: [
       "Supported the Peer-to-Peer Next Gen project launch within three months, leveraging new skills in GraphQL and TypeScript, using React 18.",
