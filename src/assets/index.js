@@ -22,6 +22,8 @@ import GraphQL from "./tech/GraphQL_Logo.png";
 import miro from "./tech/miro.png";
 import amplitude from "./tech/amplitude.jpg";
 
+import ecoNotes from "./econotes.webp";
+
 import SB from "./company/SB.png";
 import Medallia from "./company/medallia.jpeg";
 import MailOnline from "./company/mailonline.png";
@@ -63,4 +65,5 @@ export {
   MailOnline,
   Zopa,
   Birkbeck,
+  ecoNotes,
 };
